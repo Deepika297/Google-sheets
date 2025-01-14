@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Sheets Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Google Sheets Clone</h1>
+        <div class="toolbar">
+            <button onclick="addRow()">Add Row</button>
+            <button onclick="addColumn()">Add Column</button>
+            <button onclick="deleteRow()">Delete Row</button>
+            <button onclick="deleteColumn()">Delete Column</button>
+            <button onclick="calculateSum()">SUM</button>
+            <button onclick="calculateAverage()">AVERAGE</button>
+        </div>
+        <div class="formula-bar">
+            <input type="text" id="formula" placeholder="Enter formula">
+        </div>
+        <div class="spreadsheet" id="spreadsheet">
+            <!-- Cells will be dynamically added here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

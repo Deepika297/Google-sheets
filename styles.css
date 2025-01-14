@@ -1,0 +1,35 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+.container {
+    text-align: center;
+}
+
+.toolbar {
+    margin-bottom: 10px;
+}
+
+.spreadsheet {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1px;
+    background-color: #ccc;
+}
+
+.cell {
+    width: 100px;
+    height: 30px;
+    text-align: right;
+    border: 1px solid #ccc;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
